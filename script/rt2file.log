@@ -1,0 +1,61 @@
+BRL-CAD Release 7.22.0  The BRL-CAD Raytracer RT
+    Tue, 26 Jun 2012 07:58:02 +0200, Compilation 0
+    jordi@jordi-desktop:/usr/brlcad
+BRL-CAD Release 7.22.0  The BRL-CAD Ray-Tracing Library
+    Tue, 26 Jun 2012 07:58:02 +0200, Compilation 0
+    jordi@jordi-desktop:/usr/brlcad
+BRL-CAD Release 7.22.0  The BRL-CAD Numerical Computation Library
+    Tue, 26 Jun 2012 07:58:02 +0200, Compilation 0
+    jordi@jordi-desktop:/usr/brlcad
+BRL-CAD Release 7.22.0  The BRL-CAD Utility Library
+    Tue, 26 Jun 2012 07:58:02 +0200, Compilation 0
+    jordi@jordi-desktop:/usr/brlcad
+
+Running on talwinder-Aspire-V3-571G
+Planning to run with 4 processors
+rt -M -o rt2file.pix
+opendb /home/talwinder/view/script/chair.g;
+tree chair.r;
+db title:  Untitled BRL-CAD Database
+DIRBUILD: cpu = 1e-05 sec, elapsed = 0.000177 sec
+    parent: 0.0user 0.0sys 0:00real 0% 0i+0d 2592maxrss 0+92pf 0+0csw
+  children: 0.0user 0.0sys 0:00real 0% 0i+0d 0maxrss 0+0pf 0+0csw
+Additional mem=217088., #malloc=85, #free=69, #realloc=4 (16 retained)
+0139a400 TOL 5.000000e-04 (sq=2.500000e-07) perp=1.000000e-06, para=9.999990e-01
+BRL-CAD Release 7.22.0  The BRL-CAD Optical Shader Library
+    Tue, 26 Jun 2012 07:58:02 +0200, Compilation 0
+    jordi@jordi-desktop:/usr/brlcad
+Additional mem=1081344., #malloc=2053, #free=5, #realloc=1 (2048 retained)
+GETTREE: cpu = 1e-05 sec, elapsed = 0.000677 sec
+    parent: 0.0user 0.0sys 0:00real 0% 0i+0d 3606maxrss 0+57pf 8+0csw
+  children: 0.0user 0.0sys 0:00real 0% 0i+0d 0maxrss 0+0pf 0+0csw
+Additional mem=0., #malloc=1640, #free=1556, #realloc=7 (84 retained)
+
+...................Frame     0...................
+PREP: cpu = 1e-05 sec, elapsed = 0.000214 sec
+    parent: 0.0user 0.0sys 0:00real 0% 0i+0d 3606maxrss 0+20pf 0+0csw
+  children: 0.0user 0.0sys 0:00real 0% 0i+0d 0maxrss 0+0pf 0+0csw
+Additional mem=0., #malloc=104, #free=62, #realloc=4 (42 retained)
+NUBSP: 0 nu, 30 cut, 31 box (31 empty)
+Tree: 9 solids in 1 regions
+Model: X(0, 15), Y(0, 15), Z(0, 22)
+View: 90 azimuth, -8.26944e-14 elevation off of front view
+Orientation: 0, 0.707107, 0.707107, 0
+Eye_pos: 7.5, 80.8417, 11
+Size: 43mm
+Grid: (0.0839844, 0.0839844) mm, (512, 512) pixels
+Beam: radius=0.0419922 mm, divergence=0 mm/1mm
+Output file is 'rt2file.pix' 512x512 pixels
+Low overhead scanline-per-CPU buffering
+
+SHOT: cpu = 0.124 sec, elapsed = 0.034192 sec
+    parent: 0.1user 0.0sys 0:00real 400% 0i+0d 4182maxrss 0+434pf 44+21csw
+  children: 0.0user 0.0sys 0:00real 0% 0i+0d 0maxrss 0+0pf 0+0csw
+Additional mem=0., #malloc=607, #free=565, #realloc=3 (42 retained)
+78334 solid/ray intersections: 34958 hits + 43376 miss
+pruned 44.6%:  215425 model RPP, 23606 dups skipped, 0 solid RPP
+Frame  0:     262144 pixels in      0.03 sec =   8456258.06 pixels/sec
+Frame  0:     262144 rays   in      0.03 sec =   8456258.06 rays/sec (RTFM)
+Frame  0:     262144 rays   in      0.12 sec =   2114064.52 rays/CPU_sec
+Frame  0:     262144 rays   in      0.03 sec =   7666822.65 rays/sec (wallclock)
+

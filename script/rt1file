@@ -1,0 +1,15 @@
+#!/bin/sh
+rt -M \
+ -o rt1file.pix\
+ $*\
+ '/home/talwinder/view/script/chair.g'\
+ 'chair.r' \
+ 2>> rt1file.log\
+ <<EOF
+viewsize 4.30000000000000e+01;
+orientation 5.00000000000000e-01 5.00000000000000e-01 5.00000000000000e-01 5.00000000000000e-01;
+eye_pt 8.08416661932356e+01 7.50000000000000e+00 1.10000000000000e+01;
+start 0; clean;
+end;
+
+EOF
